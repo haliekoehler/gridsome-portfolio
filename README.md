@@ -1,6 +1,6 @@
 # Gridsome Portfolio
 
-A Jamstack framework for Vue.js
+A Jamstack framework for Vue.js.    
 Check out the documentation [here](https://gridsome.org/docs/).
 
 ### 1. Install Gridsome CLI tool if you don't have
