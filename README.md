@@ -1,14 +1,13 @@
-# Default starter for Gridsome
+# Gridsome Portfolio
 
-This is the project you get when you run `gridsome create new-project`.
+A Jamstack framework for Vue.js
+Check out the documentation [here](https://gridsome.org/docs/).
 
 ### 1. Install Gridsome CLI tool if you don't have
 
 `npm install --global @gridsome/cli`
 
-### 2. Create a Gridsome project
+### 2. Run Locally / Build for Prod
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+`gridsome develop` to start a local dev server at `http://localhost:8080`
+`gridsome build` to build for production
