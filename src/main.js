@@ -1,9 +1,23 @@
 // This is the main.js file. Import global CSS and scripts here.
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 // import Nav from '~/layouts/Nav.vue'
-import DefaultLayout from '~/layouts/Default.vue'
+import '~/assets/custom.css'
+import App from '~/layouts/App.vue'
+import Nav from '~/components/Nav.vue'
 
 export default function (Vue, { router, head, isClient }) {
+
+  // Responsive meta tag
+    head.meta.push({
+      name: 'viewport',
+      content: 'width=device-width, initial-scale=1, shrink-to-fit=no'
+    })
+
+  // Adobe Fonts - Montserrat
+    head.link.push({
+      rel: 'stylesheet',
+      href: 'https://use.typekit.net/ltj4kwq.css'
+    })
 
   // Add Bootstrap CDN
     head.link.push({
@@ -29,13 +43,8 @@ export default function (Vue, { router, head, isClient }) {
       body: true
     })
 
-    // Add Custom styles
-    head.link.push({
-      rel: 'stylesheet',
-      href: '~/custom.css'
-    })
-
   // Set default layout as a global component
   // Vue.component('Nav', Nav)
-  Vue.component('Layout', DefaultLayout)
+  Vue.component('App', App)
+  Vue.component('Nav', Nav)
 }

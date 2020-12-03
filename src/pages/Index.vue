@@ -1,17 +1,16 @@
 <template>
-  <Layout>
-
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <!-- <g-image alt="Example image" src="~/favicon.png" width="135" /> -->
-      <h1 class="title">Hello. I'm Halie Koehler.</h1>
-    <!-- end of .container-->
-  </Layout>
+  <App>
+    <div id="main-hero" class="container-fluid">
+      <h1 class="title">Hello! I'm Halie Koehler.</h1>
+      <h2 class="subtitle">UI/UX Designer / Frontend Developer / Visual Artist</h2>
+    </div>
+  </App>
 </template>
 
 <script>
 export default {
   metaInfo: {
-    title: 'Welcome'
+    title: 'Home'
   }
 }
 </script>
