@@ -1,23 +1,24 @@
 <template>
   <div class="layout">
     <header class="header">
+      <div class="container">
 
-      <nav class="mavbar navbar-expand-lg">
-        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <nav class="navbar navbar-expand-lg sticky-top">
+          <a class="navbar-brand" href="#">halie.online</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
+          <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarContent">
+            <ul class="navbar-nav">
+              <!-- <li class="nav-item">
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
+              </li> -->
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">About</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Dropdown
+                  Portfolio
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="#">Action</a>
@@ -27,11 +28,16 @@
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
+                <a class="nav-link" href="#">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
           </div>
-      </nav>
+        </nav>
+      </div>
+      <!--end of .container-->
 
       <!-- <strong>
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
@@ -54,12 +60,12 @@ query {
 </static-query>
 
 <style>
-body {
+/* body {
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   margin:0;
   padding:0;
   line-height: 1.5;
-}
+} */
 /*
 .layout {
   max-width: 760px;

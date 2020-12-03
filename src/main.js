@@ -28,6 +28,7 @@ export default function (Vue, { router, head, isClient }) {
       src: 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js',
       body: true
     })
+    
   // Set default layout as a global component
   // Vue.component('Nav', Nav)
   Vue.component('Layout', DefaultLayout)
