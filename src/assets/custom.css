@@ -4,18 +4,3 @@ html, body {
   min-height: 100vh;
   overflow-x: hidden;
 }
-
-#main-hero {
-  height: 100vh;
-  text-align: center;
-}
-
-.title {
-  font-size: 2rem;
-  font-size: 600;
-}
-
-.subtitle {
-  font-size: 1rem;
-  font-weight: 400;
-}

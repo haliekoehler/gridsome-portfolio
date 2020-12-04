@@ -7,6 +7,9 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "gridsome": "^0.7.0"
+    "bootstrap": "^4.5.3",
+    "bootstrap-vue": "^2.20.1",
+    "gridsome": "^0.7.0",
+    "vue": "^2.6.12"
   }
 }
