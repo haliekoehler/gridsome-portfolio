@@ -4,3 +4,11 @@ html, body {
   min-height: 100vh;
   overflow-x: hidden;
 }
+
+.jumbotron {
+  height: 50vh;
+}
+
+h1 {
+
+}
